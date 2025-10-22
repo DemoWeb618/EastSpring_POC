@@ -31,28 +31,28 @@
       <variableId>1db35843-4da6-4a1f-9613-783ccb73abe3</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'123-4-567890-1'</defaultValue>
+      <defaultValue>'000-0-00001-2'</defaultValue>
       <description></description>
       <id>a5b4fcc4-9af9-49a2-8c31-91275dae19da</id>
       <masked>false</masked>
       <name>acc_no</name>
    </variable>
    <variable>
-      <defaultValue>'18R'</defaultValue>
+      <defaultValue>'W68'</defaultValue>
       <description></description>
       <id>0e5df5e5-7a55-45f5-867d-c64c7700a1f2</id>
       <masked>false</masked>
       <name>funds_id</name>
    </variable>
    <variable>
-      <defaultValue>99</defaultValue>
+      <defaultValue>50</defaultValue>
       <description></description>
       <id>eabf5765-169f-47ff-8d9c-30ece9c51cc0</id>
       <masked>false</masked>
       <name>amount</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'ES-เจริญทรัพย์ปันผล (W68)'</defaultValue>
       <description></description>
       <id>1db35843-4da6-4a1f-9613-783ccb73abe3</id>
       <masked>false</masked>
