@@ -5,49 +5,12 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>10</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>18586d05-f308-44f9-aa7c-f708ee55719d</testSuiteGuid>
-   <testCaseLink>
-      <guid>c655372b-46e1-4399-bc12-e6c9fddbca9b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/01_TC_BuyFunds</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a5b4fcc4-9af9-49a2-8c31-91275dae19da</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0e5df5e5-7a55-45f5-867d-c64c7700a1f2</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6eaf956d-300f-4f8b-b066-fd393ed5397e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>eabf5765-169f-47ff-8d9c-30ece9c51cc0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1db35843-4da6-4a1f-9613-783ccb73abe3</variableId>
-      </variableLink>
-   </testCaseLink>
    <testCaseLink>
       <guid>eda3909a-f370-4bd3-922e-3e6b25e7cef2</guid>
       <isReuseDriver>false</isReuseDriver>

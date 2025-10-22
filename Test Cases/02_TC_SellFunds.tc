@@ -45,7 +45,7 @@
       <name>funds_id</name>
    </variable>
    <variable>
-      <defaultValue>50</defaultValue>
+      <defaultValue>'50'</defaultValue>
       <description></description>
       <id>eabf5765-169f-47ff-8d9c-30ece9c51cc0</id>
       <masked>false</masked>
