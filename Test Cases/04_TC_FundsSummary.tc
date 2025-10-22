@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04_TC_FundsSummary</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>12f68b2d-844c-447e-bd5a-ee528772cea1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>136addc3-826e-4842-86bf-f22ead688466</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'I20'</defaultValue>
+      <description></description>
+      <id>136addc3-826e-4842-86bf-f22ead688466</id>
+      <masked>false</masked>
+      <name>FundsID</name>
+   </variable>
+</TestCaseEntity>
