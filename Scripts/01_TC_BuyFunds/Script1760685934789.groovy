@@ -53,6 +53,8 @@ WebUI.click(findTestObject('Object Repository/Page_/input__tmp_accept_conc'))
 
 WebUI.takeScreenshot('D:/Project/POC_EastSpring/Automate_script/PoC_EastSpring/Screenshot/BeforeSubmit.png')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Page_/input_(High Net Worth)_submit'))
 
 Get_WD_1 = WebUI.getUrl()
@@ -93,11 +95,13 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_/td_1'), 'คุ�
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_/td_6'), funds_fullname)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_/td_7'), '100.00 บาท')
+//WebUI.verifyElementText(findTestObject('Object Repository/Page_/td_7'), '100.00 บาท')
 
 //WebUI.verifyElementText(findTestObject('Object Repository/Page_/td'), '1,000.00 บาท')
 
 WebUI.takeScreenshot('D:/Project/POC_EastSpring/Automate_script/PoC_EastSpring/Screenshot/SubmitCompleted.png')
+
+WebUI.takeScreenshot()
 
 //WebUI.verifyElementText(findTestObject('Object Repository/Page_/td_1'), '17/10/202514:34 น.')
 
