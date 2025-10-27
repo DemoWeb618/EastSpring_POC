@@ -49,8 +49,6 @@ WebUI.click(findTestObject('Object Repository/Page_/input_Note_submit'))
 
 WebUI.waitForAlert(5)
 
-WebUI.takeScreenshot()
-
 WebUI.acceptAlert()
 
 WebUI.click(findTestObject('Object Repository/Page_/input_Local AuthorizeRemote Authorize_choose_auth'))

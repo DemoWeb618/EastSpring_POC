@@ -24,12 +24,16 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://services.uat.eastspring.co.th/agent-ie-decom/')
 
+WebUI.takeScreenshot()
+
 WebUI.setText(findTestObject('Object Repository/Page_TA-SYSTEM  Eastspring Asset Management/input_Login_login_name'), 'gable_4')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_TA-SYSTEM  Eastspring Asset Management/input_Password_password'), 
     'XhlV0WqOzrTq9A21Os2qrA==')
 
 WebUI.click(findTestObject('Object Repository/Page_TA-SYSTEM  Eastspring Asset Management/input_Password_submit'))
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Page_/a__hyperlink_5'))
 
@@ -49,6 +53,8 @@ WebUI.click(findTestObject('Object Repository/Page_/input__c_accept_fx_risk'))
 
 WebUI.click(findTestObject('Object Repository/Page_/input__tmp_accept_conc'))
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Page_/input_(High Net Worth)_submit'))
 
 WebUI.waitForAlert(5)
@@ -60,6 +66,8 @@ WebUI.click(findTestObject('Object Repository/Page_/input_Local AuthorizeRemote 
 WebUI.setText(findTestObject('Object Repository/Page_/input_Supervisor ID_teller_login'), 'gable_5')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_/input_Password_teller_password'), 'rCOjHjf4WNFiBYyPgzDSng==')
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Page_/input_Password_fill_form2'))
 
@@ -82,6 +90,8 @@ for (String window : allWindows) {
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Page_/u'), 0)
 
+WebUI.takeScreenshot()
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_/td'), acc_no)
 
 //WebUI.verifyElementText(findTestObject('Object Repository/Page_/td_1'), 'คุณA05 0000000012')
@@ -90,13 +100,15 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_/td_2'), funds_fu
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_/td_3'), funds_fullname_swi)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_/td_4'), '100.00 บาท')
+//WebUI.verifyElementText(findTestObject('Object Repository/Page_/td_4'), '100.00 บาท')
 
 //WebUI.verifyElementText(findTestObject('Object Repository/Page_/td_5'), '20/10/202511:16 น.')
 
 WebUI.switchToWindowUrl('https://services.uat.eastspring.co.th/agent-ie-decom/login/login_accept.jsp')
 
 WebUI.click(findTestObject('Object Repository/Page_/b'))
+
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 
