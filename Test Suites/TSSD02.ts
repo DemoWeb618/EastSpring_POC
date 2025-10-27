@@ -19,7 +19,7 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
+         <type>DEFAULT</type>
          <value></value>
          <variableId>136addc3-826e-4842-86bf-f22ead688466</variableId>
       </variableLink>

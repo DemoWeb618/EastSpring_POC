@@ -19,31 +19,31 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
+         <type>DEFAULT</type>
          <value></value>
          <variableId>a5b4fcc4-9af9-49a2-8c31-91275dae19da</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
+         <type>DEFAULT</type>
          <value></value>
          <variableId>0e5df5e5-7a55-45f5-867d-c64c7700a1f2</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
+         <type>DEFAULT</type>
          <value></value>
          <variableId>6eaf956d-300f-4f8b-b066-fd393ed5397e</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
+         <type>DEFAULT</type>
          <value></value>
          <variableId>eabf5765-169f-47ff-8d9c-30ece9c51cc0</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
+         <type>DEFAULT</type>
          <value></value>
          <variableId>1db35843-4da6-4a1f-9613-783ccb73abe3</variableId>
       </variableLink>
@@ -56,25 +56,25 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
+         <type>DEFAULT</type>
          <value></value>
          <variableId>a5b4fcc4-9af9-49a2-8c31-91275dae19da</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
+         <type>DEFAULT</type>
          <value></value>
          <variableId>0e5df5e5-7a55-45f5-867d-c64c7700a1f2</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
+         <type>DEFAULT</type>
          <value></value>
          <variableId>eabf5765-169f-47ff-8d9c-30ece9c51cc0</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
+         <type>DEFAULT</type>
          <value></value>
          <variableId>1db35843-4da6-4a1f-9613-783ccb73abe3</variableId>
       </variableLink>
@@ -87,37 +87,37 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
+         <type>DEFAULT</type>
          <value></value>
          <variableId>a5b4fcc4-9af9-49a2-8c31-91275dae19da</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
+         <type>DEFAULT</type>
          <value></value>
          <variableId>0e5df5e5-7a55-45f5-867d-c64c7700a1f2</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
+         <type>DEFAULT</type>
          <value></value>
          <variableId>ae278ee4-a098-4c44-9677-6b5d8872f3fe</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
+         <type>DEFAULT</type>
          <value></value>
          <variableId>eabf5765-169f-47ff-8d9c-30ece9c51cc0</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
+         <type>DEFAULT</type>
          <value></value>
          <variableId>1db35843-4da6-4a1f-9613-783ccb73abe3</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
-         <type>DATA_COLUMN</type>
+         <type>DEFAULT</type>
          <value></value>
          <variableId>ac6dc05c-f006-41e6-a66f-1f8a2f24b851</variableId>
       </variableLink>
