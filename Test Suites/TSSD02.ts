@@ -16,20 +16,11 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/04_TC_FundsSummary</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>7067e357-8ec9-4f21-9401-f52b6ba372ce</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Funds_Summary</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>7067e357-8ec9-4f21-9401-f52b6ba372ce</testDataLinkId>
+         <testDataLinkId></testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>fund_id</value>
+         <value></value>
          <variableId>136addc3-826e-4842-86bf-f22ead688466</variableId>
       </variableLink>
    </testCaseLink>

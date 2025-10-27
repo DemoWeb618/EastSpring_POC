@@ -16,44 +16,35 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/01_TC_BuyFunds</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>215c060f-2073-4c8a-80aa-0fc715dd8a65</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Buy_Trans</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>215c060f-2073-4c8a-80aa-0fc715dd8a65</testDataLinkId>
+         <testDataLinkId></testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>acc_no</value>
+         <value></value>
          <variableId>a5b4fcc4-9af9-49a2-8c31-91275dae19da</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>215c060f-2073-4c8a-80aa-0fc715dd8a65</testDataLinkId>
+         <testDataLinkId></testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>funds_id</value>
+         <value></value>
          <variableId>0e5df5e5-7a55-45f5-867d-c64c7700a1f2</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>215c060f-2073-4c8a-80aa-0fc715dd8a65</testDataLinkId>
+         <testDataLinkId></testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>payment_type</value>
+         <value></value>
          <variableId>6eaf956d-300f-4f8b-b066-fd393ed5397e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>215c060f-2073-4c8a-80aa-0fc715dd8a65</testDataLinkId>
+         <testDataLinkId></testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>amount</value>
+         <value></value>
          <variableId>eabf5765-169f-47ff-8d9c-30ece9c51cc0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>215c060f-2073-4c8a-80aa-0fc715dd8a65</testDataLinkId>
+         <testDataLinkId></testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>funds_fullname</value>
+         <value></value>
          <variableId>1db35843-4da6-4a1f-9613-783ccb73abe3</variableId>
       </variableLink>
    </testCaseLink>
@@ -62,38 +53,29 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/02_TC_SellFunds</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>f4c970a3-7559-495c-9390-9a605258b5fe</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Red_Trans</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>f4c970a3-7559-495c-9390-9a605258b5fe</testDataLinkId>
+         <testDataLinkId></testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>acc_no</value>
+         <value></value>
          <variableId>a5b4fcc4-9af9-49a2-8c31-91275dae19da</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f4c970a3-7559-495c-9390-9a605258b5fe</testDataLinkId>
+         <testDataLinkId></testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>funds_id</value>
+         <value></value>
          <variableId>0e5df5e5-7a55-45f5-867d-c64c7700a1f2</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f4c970a3-7559-495c-9390-9a605258b5fe</testDataLinkId>
+         <testDataLinkId></testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>amount</value>
+         <value></value>
          <variableId>eabf5765-169f-47ff-8d9c-30ece9c51cc0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f4c970a3-7559-495c-9390-9a605258b5fe</testDataLinkId>
+         <testDataLinkId></testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>funds_fullname</value>
+         <value></value>
          <variableId>1db35843-4da6-4a1f-9613-783ccb73abe3</variableId>
       </variableLink>
    </testCaseLink>
@@ -102,50 +84,41 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/03_TC_SwitchFunds</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>2a25c189-5fcf-4bc9-b5cd-444a3ea357d5</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Switch_Trans</testDataId>
-      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>2a25c189-5fcf-4bc9-b5cd-444a3ea357d5</testDataLinkId>
+         <testDataLinkId></testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>acc_no</value>
+         <value></value>
          <variableId>a5b4fcc4-9af9-49a2-8c31-91275dae19da</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>2a25c189-5fcf-4bc9-b5cd-444a3ea357d5</testDataLinkId>
+         <testDataLinkId></testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>funds_id_swo</value>
+         <value></value>
          <variableId>0e5df5e5-7a55-45f5-867d-c64c7700a1f2</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>2a25c189-5fcf-4bc9-b5cd-444a3ea357d5</testDataLinkId>
+         <testDataLinkId></testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>funds_id_swi</value>
+         <value></value>
          <variableId>ae278ee4-a098-4c44-9677-6b5d8872f3fe</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>2a25c189-5fcf-4bc9-b5cd-444a3ea357d5</testDataLinkId>
+         <testDataLinkId></testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>amount</value>
+         <value></value>
          <variableId>eabf5765-169f-47ff-8d9c-30ece9c51cc0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>2a25c189-5fcf-4bc9-b5cd-444a3ea357d5</testDataLinkId>
+         <testDataLinkId></testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>funds_fullname_swo</value>
+         <value></value>
          <variableId>1db35843-4da6-4a1f-9613-783ccb73abe3</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>2a25c189-5fcf-4bc9-b5cd-444a3ea357d5</testDataLinkId>
+         <testDataLinkId></testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>funds_fullname_swi</value>
+         <value></value>
          <variableId>ac6dc05c-f006-41e6-a66f-1f8a2f24b851</variableId>
       </variableLink>
    </testCaseLink>

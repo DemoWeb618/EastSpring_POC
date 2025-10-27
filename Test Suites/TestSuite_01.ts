@@ -149,33 +149,4 @@
          <variableId>ac6dc05c-f006-41e6-a66f-1f8a2f24b851</variableId>
       </variableLink>
    </testCaseLink>
-   <testCaseLink>
-      <guid>cecf75e7-9819-4d89-9764-9ff9114df286</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/04_TC_FundsSummary</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>c848c816-b8ee-45af-baa5-1278bed384c5</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Funds_Summary</testDataId>
-      </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId>c848c816-b8ee-45af-baa5-1278bed384c5</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>fund_id</value>
-         <variableId>136addc3-826e-4842-86bf-f22ead688466</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>76fdad9e-644e-4422-bfa0-cf5858803006</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/05_TC_AllFundsSummary</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
 </TestSuiteEntity>
