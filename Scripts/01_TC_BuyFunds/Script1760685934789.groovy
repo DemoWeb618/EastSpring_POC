@@ -25,6 +25,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://services.uat.eastspring.co.th/agent-ie-decom/')
 
+WebUI.takeScreenshot()
+
 WebUI.setText(findTestObject('Object Repository/Page_TA-SYSTEM  Eastspring Asset Management/input_Login_login_name'), 'gable_4')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_TA-SYSTEM  Eastspring Asset Management/input_Password_password'), 
@@ -51,7 +53,7 @@ WebUI.click(findTestObject('Object Repository/Page_/input__c_accept_fx_risk'))
 
 WebUI.click(findTestObject('Object Repository/Page_/input__tmp_accept_conc'))
 
-WebUI.takeScreenshot('D:/Project/POC_EastSpring/Automate_script/PoC_EastSpring/Screenshot/BeforeSubmit.png')
+//WebUI.takeScreenshot('D:/Project/POC_EastSpring/Automate_script/PoC_EastSpring/Screenshot/BeforeSubmit.png')
 
 WebUI.takeScreenshot()
 
@@ -99,7 +101,7 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_/td_6'), funds_fu
 
 //WebUI.verifyElementText(findTestObject('Object Repository/Page_/td'), '1,000.00 บาท')
 
-WebUI.takeScreenshot('D:/Project/POC_EastSpring/Automate_script/PoC_EastSpring/Screenshot/SubmitCompleted.png')
+//WebUI.takeScreenshot('D:/Project/POC_EastSpring/Automate_script/PoC_EastSpring/Screenshot/SubmitCompleted.png')
 
 WebUI.takeScreenshot()
 

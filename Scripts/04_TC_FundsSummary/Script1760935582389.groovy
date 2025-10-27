@@ -31,6 +31,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://services.uat.eastspring.co.th/agent-ie-decom/')
 
+WebUI.takeScreenshot()
+
 WebUI.setText(findTestObject('Object Repository/Page_TA-SYSTEM  Eastspring Asset Management/input_Login_login_name'), 'gable_5')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_TA-SYSTEM  Eastspring Asset Management/input_Password_password'), 
@@ -45,6 +47,8 @@ WebUI.click(findTestObject('Object Repository/Page_/a__hyperlink_1'))
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_/select__tmp_fund_code'), FundsID, true)
 
 WebUI.click(findTestObject('Object Repository/Page_/input__btn_pur'))
+
+WebUI.takeScreenshot()
 
 boolean Buy_Save_to_excel_available = WebUI.waitForElementPresent(findTestObject('Object Repository/Page_/input__copy_btn'), 
     10)
@@ -124,6 +128,8 @@ if (Buy_Save_to_excel_available) {
 
 WebUI.click(findTestObject('Object Repository/Page_/input__btn_red'))
 
+WebUI.takeScreenshot()
+
 boolean Red_Save_to_excel_available = WebUI.waitForElementPresent(findTestObject('Object Repository/Page_/input__copy_btn'), 
     10)
 
@@ -202,6 +208,8 @@ if (Red_Save_to_excel_available) {
 
 WebUI.click(findTestObject('Object Repository/Page_/input__btn_swi'))
 
+WebUI.takeScreenshot()
+
 boolean SWI_Save_to_excel_available = WebUI.waitForElementPresent(findTestObject('Object Repository/Page_/input__copy_btn'), 
     10)
 
@@ -279,6 +287,8 @@ if (SWI_Save_to_excel_available) {
 }
 
 WebUI.click(findTestObject('Object Repository/Page_/input__btn_swo'))
+
+WebUI.takeScreenshot()
 
 boolean SWO_Save_to_excel_available = WebUI.waitForElementPresent(findTestObject('Object Repository/Page_/input__copy_btn'), 
     10)
@@ -359,6 +369,8 @@ if (SWO_Save_to_excel_available) {
 WebUI.click(findTestObject('Object Repository/Page_/input_20_cancel'))
 
 WebUI.click(findTestObject('Object Repository/Page_/b'))
+
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

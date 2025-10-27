@@ -29,6 +29,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://services.uat.eastspring.co.th/agent-ie-decom/')
 
+WebUI.takeScreenshot()
+
 WebUI.setText(findTestObject('Object Repository/Page_TA-SYSTEM  Eastspring Asset Management/input_Login_login_name'), 'gable_5')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_TA-SYSTEM  Eastspring Asset Management/input_Password_password'), 
@@ -39,6 +41,8 @@ WebUI.click(findTestObject('Object Repository/Page_TA-SYSTEM  Eastspring Asset M
 WebUI.click(findTestObject('Object Repository/Page_/a__hyperlink'))
 
 WebUI.click(findTestObject('Object Repository/Page_/a__hyperlink_2'))
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Page_/input_20  ()_copy_btn'))
 
@@ -112,6 +116,8 @@ println('✅ Excel file created successfully at: ' + filePath)
 WebUI.click(findTestObject('Object Repository/Page_/input_20  ()_cancel'))
 
 WebUI.click(findTestObject('Object Repository/Page_/b'))
+
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 
