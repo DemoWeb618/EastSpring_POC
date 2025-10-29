@@ -59,9 +59,26 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Object Repository/Page_/input_(High Net Worth)_submit'))
 
-Get_WD_1 = WebUI.getUrl()
+boolean buy_overtime = WebUI.waitForAlert(5)
 
-println(Get_WD_1)
+if (buy_overtime) {
+	
+	WebUI.acceptAlert()
+	
+	WebUI.click(findTestObject('Object Repository/Page_/input_Local AuthorizeRemote Authorize_choose_auth'))
+	
+	WebUI.setText(findTestObject('Object Repository/Page_/input_Supervisor ID_teller_login'), 'gable_5')
+	
+	WebUI.setEncryptedText(findTestObject('Object Repository/Page_/input_Password_teller_password'), 'rCOjHjf4WNFiBYyPgzDSng==')
+	
+	WebUI.takeScreenshot()
+	
+	WebUI.click(findTestObject('Object Repository/Page_/input_Password_fill_form2'))
+}
+
+//Get_WD_1 = WebUI.getUrl()
+
+//println(Get_WD_1)
 
 //WebUI.switchToWindowTitle('https://services.uat.eastspring.co.th/agent-ie-decom/sa/202510160230/jsp/voucher.jsp?executed=YES')
 
@@ -104,6 +121,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_/td_6'), funds_fu
 //WebUI.takeScreenshot('D:/Project/POC_EastSpring/Automate_script/PoC_EastSpring/Screenshot/SubmitCompleted.png')
 
 WebUI.takeScreenshot()
+
+WebUI.takeScreenshotAsCheckpoint('current_viewport')
 
 //WebUI.verifyElementText(findTestObject('Object Repository/Page_/td_1'), '17/10/202514:34 น.')
 
