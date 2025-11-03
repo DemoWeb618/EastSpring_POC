@@ -54,7 +54,7 @@
       <name>acc_no</name>
    </variable>
    <variable>
-      <defaultValue>'A20'</defaultValue>
+      <defaultValue>'I20'</defaultValue>
       <description>I20</description>
       <id>0e5df5e5-7a55-45f5-867d-c64c7700a1f2</id>
       <masked>false</masked>
