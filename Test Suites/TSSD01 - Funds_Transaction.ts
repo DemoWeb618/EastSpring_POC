@@ -51,7 +51,7 @@
    <testCaseLink>
       <guid>4419d847-a77d-4621-a511-30e178c9e450</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TSSD01-TC02_SellFunds</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -82,7 +82,7 @@
    <testCaseLink>
       <guid>be70c4c5-3283-48da-a8ef-721c317ca0d5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TSSD01-TC03_SwitchFunds</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>

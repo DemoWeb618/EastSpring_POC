@@ -23,7 +23,7 @@ import org.openqa.selenium.WebDriver
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(G_URL)
+WebUI.navigateToUrl(GlobalVariable.G_URL)
 
 WebUI.takeScreenshot()
 
