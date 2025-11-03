@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TSSD01</name>
+   <name>TSSD01 - Funds_Transaction</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -15,7 +15,7 @@
       <guid>2b277598-056c-4ff8-8b9b-6e6e1e6a5f1e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_TC_BuyFunds</testCaseId>
+      <testCaseId>Test Cases/TSSD01-TC01_BuyFunds</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -52,7 +52,7 @@
       <guid>4419d847-a77d-4621-a511-30e178c9e450</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/02_TC_SellFunds</testCaseId>
+      <testCaseId>Test Cases/TSSD01-TC02_SellFunds</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -83,7 +83,7 @@
       <guid>be70c4c5-3283-48da-a8ef-721c317ca0d5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/03_TC_SwitchFunds</testCaseId>
+      <testCaseId>Test Cases/TSSD01-TC03_SwitchFunds</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

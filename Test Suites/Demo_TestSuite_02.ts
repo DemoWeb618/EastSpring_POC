@@ -15,7 +15,7 @@
       <guid>da62671f-0baf-4ae4-8711-f35656dd0747</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/04_TC_FundsSummary</testCaseId>
+      <testCaseId>Test Cases/TSSD02-TC01_FundsSummary</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -28,7 +28,7 @@
       <guid>719b2bdb-d02d-44e2-aadf-94542cf26f81</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/05_TC_AllFundsSummary</testCaseId>
+      <testCaseId>Test Cases/TSSD02-TC02_AllFundsSummary</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

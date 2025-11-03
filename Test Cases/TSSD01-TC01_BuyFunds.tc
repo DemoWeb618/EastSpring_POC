@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>01_TC_BuyFunds</name>
+   <name>TSSD01-TC01_BuyFunds</name>
    <tag>jira-integration</tag>
    <integratedEntity>
       <productName>JIRA</productName>

@@ -23,7 +23,7 @@ import org.openqa.selenium.WebDriver
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://services.uat.eastspring.co.th/agent-ie-decom/')
+WebUI.navigateToUrl(G_URL)
 
 WebUI.takeScreenshot()
 

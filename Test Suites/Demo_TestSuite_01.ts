@@ -15,7 +15,7 @@
       <guid>2677452e-7115-4342-a9b8-89f6f4d40f57</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/01_TC_BuyFunds</testCaseId>
+      <testCaseId>Test Cases/TSSD01-TC01_BuyFunds</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>552038a2-cd68-4a70-b7ce-4ba272a2a5b0</id>
@@ -61,7 +61,7 @@
       <guid>724d7175-6ff1-4084-8b5d-819e083bdb68</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/02_TC_SellFunds</testCaseId>
+      <testCaseId>Test Cases/TSSD01-TC02_SellFunds</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3c769dfc-efb0-4207-a3e6-7d1035de250b</id>
@@ -101,7 +101,7 @@
       <guid>0267c018-1433-4c91-875c-039e737ec86a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/03_TC_SwitchFunds</testCaseId>
+      <testCaseId>Test Cases/TSSD01-TC03_SwitchFunds</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ef612222-b964-46a3-b8da-7df430e9c311</id>

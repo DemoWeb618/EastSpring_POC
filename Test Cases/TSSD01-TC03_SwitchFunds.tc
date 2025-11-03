@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>02_TC_SellFunds</name>
+   <name>TSSD01-TC03_SwitchFunds</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>bc90110a-02e0-47bc-87e7-7742ceaec051</testCaseGuid>
+   <testCaseGuid>3c4c1418-6186-4349-a9f1-266b07e86609</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
@@ -22,6 +22,12 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>ae278ee4-a098-4c44-9677-6b5d8872f3fe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>eabf5765-169f-47ff-8d9c-30ece9c51cc0</variableId>
    </variableLinks>
    <variableLinks>
@@ -29,6 +35,12 @@
       <type>DEFAULT</type>
       <value></value>
       <variableId>1db35843-4da6-4a1f-9613-783ccb73abe3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ac6dc05c-f006-41e6-a66f-1f8a2f24b851</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'000-0-00001-2'</defaultValue>
@@ -42,10 +54,17 @@
       <description></description>
       <id>0e5df5e5-7a55-45f5-867d-c64c7700a1f2</id>
       <masked>false</masked>
-      <name>funds_id</name>
+      <name>funds_id_swo</name>
    </variable>
    <variable>
-      <defaultValue>'50'</defaultValue>
+      <defaultValue>'I20'</defaultValue>
+      <description></description>
+      <id>ae278ee4-a098-4c44-9677-6b5d8872f3fe</id>
+      <masked>false</masked>
+      <name>funds_id_swi</name>
+   </variable>
+   <variable>
+      <defaultValue>'100'</defaultValue>
       <description></description>
       <id>eabf5765-169f-47ff-8d9c-30ece9c51cc0</id>
       <masked>false</masked>
@@ -56,6 +75,13 @@
       <description></description>
       <id>1db35843-4da6-4a1f-9613-783ccb73abe3</id>
       <masked>false</masked>
-      <name>funds_fullname</name>
+      <name>funds_fullname_swo</name>
+   </variable>
+   <variable>
+      <defaultValue>'ES-Global Income (I20)'</defaultValue>
+      <description></description>
+      <id>ac6dc05c-f006-41e6-a66f-1f8a2f24b851</id>
+      <masked>false</masked>
+      <name>funds_fullname_swi</name>
    </variable>
 </TestCaseEntity>
