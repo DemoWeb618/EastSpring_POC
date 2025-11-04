@@ -38,7 +38,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_TA-SYSTEM  Eastspr
 
 WebUI.click(findTestObject('Object Repository/Page_TA-SYSTEM  Eastspring Asset Management/input_Password_submit'))
 
-WebUI.click(findTestObject('Object Repository/Page_/a__hyperlink'))
+WebUI.click(findTestObject('Object Repository/Page_/a__hyperlink_3'))
 
 WebUI.click(findTestObject('Object Repository/Page_/a__hyperlink_2'))
 
