@@ -25,6 +25,8 @@ import org.apache.poi.ss.usermodel.Cell as Cell
 import org.apache.poi.ss.usermodel.Sheet as Sheet
 import java.io.FileOutputStream as FileOutputStream
 
+Today = CustomKeywords.'datetime.DT.getToday_ddMMyyyy'()
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://services.uat.eastspring.co.th/agent-ie-decom/')
@@ -101,7 +103,7 @@ for (int i = 0; i < totalCols; i++) {
 }
 
 // Step 6: Save Excel file
-String filePath = 'D:\\Project\\POC_EastSpring\\AllTransaction_20102025.xlsx'
+String filePath = "D:\\Project\\POC_EastSpring\\AllTransaction_${Today}.xlsx"
 
 FileOutputStream out = new FileOutputStream(filePath)
 
